@@ -38,5 +38,3 @@ Validar os principais fluxos do e-commerce Sauce Demo (login, produtos, carrinho
 - Site de terceiros pode sair do ar ou mudar
 - Usuário `problem_user` tem falhas intencionais
 
-## 9. Cronograma
-- Definir datas por etapa
