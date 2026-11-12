@@ -1,0 +1,22 @@
+# BUG 1 - Na tela de checkout (informações pessoais)
+
+- **Severidade:** Média
+- **Prioridade:** Alta
+- **Usuário:** problem_user
+- **Ambiente:** Chrome, Windows
+- **Caso de teste relacionado:** CT07
+
+## Passos para reproduzir
+1. Acessar saucedemo.com
+2. Logar com `problem_user` / `secret_sauce`
+3. Adicionar um produto ao Carrinho clicar em checkout digitar nome sobrenome e CEP
+4. Clicar em Continue
+
+## Resultado esperado
+Avançar para tela de pagemento
+
+## Resultado obtido
+Ao digitar o sobrenome o campo Nome apaga e o Campo Sobrenome não retorna nenhum texto
+
+## Evidência
+(./img/bug01.png)
