@@ -1,0 +1,28 @@
+name: Testes E2E
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Rodar testes Cypress
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: e2e
+          browser: chrome
+
+      - name: Salvar screenshots em caso de falha
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-screenshots
+          path: e2e/cypress/screenshots
+          if-no-files-found: ignore

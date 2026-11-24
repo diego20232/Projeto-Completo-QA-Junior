@@ -28,10 +28,12 @@ it('CT04 - Adicionar produto', () => {
   massaLogin.clickCarrinho('standard_user', 'secret_sauce')
 });
 
-it.only('CT05 - Remover produto', () => {
+it('CT05 - Remover produto', () => {
   massaLogin.removerProduto('standard_user', 'secret_sauce')
 });
 
-
+it.only('CT06 - Checkout', () => {
+  massaLogin.checkoutLogin('problem_user', 'secret_sauce', 'Diego', 'Sampaio', '04470185')
+});
 
 });

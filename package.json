@@ -1,0 +1,24 @@
+{
+  "name": "projeto-completo-qa-junior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego20232/Projeto-Completo-QA-Junior.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/diego20232/Projeto-Completo-QA-Junior/issues"
+  },
+  "homepage": "https://github.com/diego20232/Projeto-Completo-QA-Junior#readme"
+}
